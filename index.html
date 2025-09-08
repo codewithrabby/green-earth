@@ -38,24 +38,30 @@
     </nav>
 
     <!-- Hero -->
-    <section class="flex flex-col md:flex-row justify-between items-end text-center bg-[#CFF0DC] relative px-4 md:px-10 md:py-20">
+    <section class="relative flex flex-col md:flex-row justify-center text-center bg-[#CFF0DC] px-4 md:px-10 md:py-20">
     
-        <!-- Left Image (hidden on sm) -->
-        <div class="hidden md:flex md:flex-1 justify-start">
-            <img src="./assets/hero-leaf1.png" alt="" class="w-64 lg:w-72 xl:w-80">
-        </div>
+    <!-- Left Side Image -->
+    <div class="hidden md:block absolute bottom-0 left-0">
+        <img src="./assets/hero-leaf1.png" alt="" class="w-72 lg:w-80 xl:w-96">
+    </div>
 
-        <!-- Center Text -->
-        <div class="max-w-3xl mx-auto flex-1">
-            <h1 class="text-[#1F2937] text-xl mt-8 md:text-2xl lg:text-4xl font-bold mb-6">Plant a Tree, Grow a Future</h1>
-            <p class="mb-6 text-[#1F2937] text-base md:text-lg">Join our mission to support nature & communities. Each tree you plant helps grow our future.</p>
-            <button class="btn bg-[#FACC15] border-0 text-[#15803D] mb-6 px-4 md:px-6 py-2">Get Involved</button>
-        </div>
+    <!-- Center Text -->
+    <div class="max-w-3xl mx-auto flex-1 relative z-10">
+        <h1 class="text-[#1F2937] text-xl mt-8 md:text-2xl lg:text-4xl font-bold mb-6">
+            Plant a Tree, Grow a Future
+        </h1>
+        <p class="mb-6 text-[#1F2937] text-base md:text-lg">
+            Join our mission to support nature & communities. Each tree you plant helps grow our future.
+        </p>
+        <button class="btn bg-[#FACC15] border-0 text-[#15803D] mb-6 px-4 md:px-6 py-2">
+            Get Involved
+        </button>
+    </div>
 
-        <!-- Right Image (hidden on sm) -->
-        <div class="hidden md:flex md:flex-1 justify-end">
-            <img src="./assets/hero-leaf2.png" alt="" class="w-64 lg:w-72 xl:w-80">
-        </div>
+    <!-- Right Side Image -->
+    <div class="hidden md:block absolute bottom-0 right-0">
+        <img src="./assets/hero-leaf2.png" alt="" class="w-72 lg:w-80 xl:w-96">
+    </div>
     </section>
 
     <!-- Main Section -->
